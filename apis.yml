@@ -30,3 +30,9 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+
+common:
+  - type: DomainSecurity
+    url: security/suprsonic-domain-security.yml
+  - url: https://suprsonic.ai/blog
+    type: Blog
