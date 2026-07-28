@@ -1,0 +1,38 @@
+generated: '2026-07-28'
+method: probed
+source: https://suprsonic.ai/.well-known/agent-card.json
+description: 'A2A Agent Card observed at /.well-known/agent-card.json on suprsonic.ai. Grade is measured
+  against the A2A 1.0.0 AgentCard object: ''conformant'' passes every structural check, ''near-conformant''
+  is correctly shaped but omits optional fields, ''flavored'' fails a hard check and is an agent card
+  in spirit rather than in schema. Provider-published by construction — served from the provider''s own
+  host; nothing here is derived or generated.'
+discovery:
+  path: /.well-known/agent-card.json
+  canonical: true
+  host: suprsonic.ai
+conformance:
+  spec: A2A 1.0.0
+  grade: flavored
+  protocol_version: null
+  preferred_transport: null
+  deviations:
+  - capabilities-not-object
+  - no-protocolVersion
+  - skills-not-array
+  - no-defaultInputModes
+  - no-defaultOutputModes
+  - no-preferredTransport
+card:
+  name: suprsonic
+  description: Add dozens of capabilities to your AI agent with one API key.
+  url: https://suprsonic.ai
+  version: 1.0.0
+  documentation_url: null
+  skills: null
+  file: suprsonic-agent-card.json
+x-evidence:
+  fetched: '2026-07-28'
+  url: https://suprsonic.ai/.well-known/agent-card.json
+  http_status: 200
+  content_type: application/json
+  note: Verbatim body saved alongside this manifest. No field inferred.

@@ -1,0 +1,71 @@
+{
+  "name": "suprsonic",
+  "description": "Add dozens of capabilities to your AI agent with one API key.",
+  "url": "https://suprsonic.ai",
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "name": "web_search",
+      "description": "Search the web with SERP, AI synthesis, or both"
+    },
+    {
+      "name": "web_scrape",
+      "description": "Extract content from any URL as Markdown or HTML"
+    },
+    {
+      "name": "profile_enrichment",
+      "description": "Find and enrich professional profiles"
+    },
+    {
+      "name": "email_finding",
+      "description": "Find professional email addresses"
+    },
+    {
+      "name": "image_generation",
+      "description": "Generate images from text prompts"
+    },
+    {
+      "name": "text_to_speech",
+      "description": "Convert text to natural speech audio"
+    },
+    {
+      "name": "speech_to_text",
+      "description": "Transcribe audio to text"
+    },
+    {
+      "name": "messaging",
+      "description": "Send SMS and WhatsApp messages"
+    },
+    {
+      "name": "deep_research",
+      "description": "Multi-step research with cited reports"
+    },
+    {
+      "name": "code_execution",
+      "description": "Execute code in sandboxed environments"
+    }
+  ],
+  "authentication": {
+    "type": "bearer",
+    "envVar": "SUPRSONIC_API_KEY",
+    "signupUrl": "https://suprsonic.ai/app/apis"
+  },
+  "endpoints": {
+    "base_url": "https://suprsonic.ai",
+    "openapi": "https://suprsonic.ai/v1/openapi.json",
+    "agent_api": "https://suprsonic.ai/v1/agent",
+    "tools": "https://suprsonic.ai/v1/tools"
+  },
+  "sdks": {
+    "npm_mcp": "https://www.npmjs.com/package/suprsonic-mcp",
+    "npm_sdk": "https://www.npmjs.com/package/suprsonic",
+    "pypi": "https://pypi.org/project/suprsonic/"
+  },
+  "provider": {
+    "organization": "O-mega Enterprise, Inc.",
+    "url": "https://o-mega.ai"
+  },
+  "contact": {
+    "email": "support@o-mega.ai"
+  }
+}
