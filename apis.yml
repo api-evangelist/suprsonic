@@ -2,7 +2,7 @@ aid: suprsonic
 name: Suprsonic
 description: "Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities"
 url: https://suprsonic.ai
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
