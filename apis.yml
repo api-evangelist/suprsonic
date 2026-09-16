@@ -1,6 +1,7 @@
 aid: suprsonic
 name: Suprsonic
-description: "Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities"
+description: 'Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+
+  capabilities'
 url: https://suprsonic.ai
 deliveryModel:
   model: unknown
@@ -27,39 +28,36 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-05-28'
-modified: '2026-05-28'
+modified: '2026-09-16'
 x-source: public-apis/public-apis
-x-category: "Development"
+x-category: Development
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Development
-  - Public APIs
+- Development
+- Public APIs
 apis:
-  - name: Suprsonic
-    description: "Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities"
-    humanURL: https://suprsonic.ai
-    baseURL: https://suprsonic.ai
-    tags:
-      - Development
-    properties:
-      - type: Documentation
-        url: https://suprsonic.ai
-common:
-  - type: Website
+- name: Suprsonic
+  description: 'Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+
+    capabilities'
+  humanURL: https://suprsonic.ai
+  baseURL: https://suprsonic.ai
+  tags:
+  - Development
+  properties:
+  - type: Documentation
     url: https://suprsonic.ai
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
-
 common:
-  - type: AgentCard
-    url: a2a/suprsonic-a2a.yml
-    name: A2A Agent Card
-    description: Agent Card served at /.well-known/agent-card.json (flavored against A2A 1.0.0).
-  - type: DomainSecurity
-    url: security/suprsonic-domain-security.yml
-  - url: https://suprsonic.ai/blog
-    type: Blog
+- type: Website
+  url: https://suprsonic.ai
+- type: AgentCard
+  url: a2a/suprsonic-a2a.yml
+  name: A2A Agent Card
+  description: Agent Card served at /.well-known/agent-card.json (flavored against A2A 1.0.0).
+- type: DomainSecurity
+  url: security/suprsonic-domain-security.yml
+- url: https://suprsonic.ai/blog
+  type: Blog
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
