@@ -36,12 +36,12 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
 - Development
 - Public APIs
+- A2A
 apis:
 - name: Suprsonic
   description: 'Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+
     capabilities'
   humanURL: https://suprsonic.ai
-  baseURL: https://suprsonic.ai
   tags:
   - Development
   properties:
